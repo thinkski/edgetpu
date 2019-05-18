@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Control fan operation. Force the fan on or revert to automatic control.
-# Usage: fan <on|auto>
+# Control fan operation and display temperature
+# Usage: fan <on|auto|temp>
 
 case $1 in
         "on")
